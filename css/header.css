@@ -3,11 +3,11 @@ header {
 }
 
 .header {
-    background: #212526;
-    width: 74vw;
+    max-width: 100vw;
+    min-width: 70vw;
     align-items: center;
     justify-content: space-between;
-    padding: 0 200px;
+    padding: 0 15vw;
     /* height: 10vh; */
 }
 
@@ -63,16 +63,26 @@ header {
 
 .bg-black {
     background-color: black;
-    padding: 20px;
 }
 
+.bg-grey {
+    background: #212526;
+}
+
+
+
 .search-container {
-    margin: 20px;
+    margin: 20px 0;
 }
 
 #search-input {
-    padding: 5px;
-    width: 200px;
+    padding: 15px;
+    width: 15vw;
+    outline: none;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 1vw;
+    font-family: 'Raleway', sans-serif;
 }
 
 .button1 {
@@ -92,4 +102,27 @@ header {
 
 a {
     color: white;
+}
+
+.search-results {
+    position: fixed;
+    color: #3B3B3B;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.547);
+    opacity: 0;
+}
+
+.header_icon li {
+    background-color: white;
+    display: flex;
+    margin: 0.5vw;
+    padding: 5px;
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+
 }
