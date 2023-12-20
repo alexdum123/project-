@@ -1,0 +1,95 @@
+header {
+    position: fixed;
+}
+
+.header {
+    background: #212526;
+    width: 74vw;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+    /* height: 10vh; */
+}
+
+.flex {
+    display: flex;
+}
+
+.header_button {
+    height: 10vh;
+    width: 10vh;
+    background-color: #3B3B3B;
+    margin: 0 1px;
+    transition: all 0.3s ease;
+}
+
+.header_button:hover {
+    background-color: #F05A00;
+
+}
+
+.header_text {
+    align-items: center;
+}
+
+.text_orange {
+    color: #F05A00;
+}
+
+.text_big {
+    font-weight: 400;
+    font-family: 'Prosto One', sans-serif;
+    letter-spacing: 1px;
+}
+
+.text_logo {
+    width: 15px;
+    height: 15px;
+    background-color: #F05A00;
+    margin-right: 2px;
+}
+
+.logo_flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.header_svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.bg-black {
+    background-color: black;
+    padding: 20px;
+}
+
+.search-container {
+    margin: 20px;
+}
+
+#search-input {
+    padding: 5px;
+    width: 200px;
+}
+
+.button1 {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.header_list {
+    justify-content: space-around;
+}
+
+.header2 {
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+a {
+    color: white;
+}

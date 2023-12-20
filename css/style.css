@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+body {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.text_orange {
+    color: #F05A00;
+}
+
+.text_big {
+    font-weight: 400;
+    font-family: 'Prosto One', sans-serif;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+}
