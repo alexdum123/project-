@@ -21,6 +21,7 @@ header {
     width: 10vh;
     background-color: #3B3B3B;
     margin: 0 1px;
+    cursor: pointer;
     transition: all 0.3s ease;
 }
 

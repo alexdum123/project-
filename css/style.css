@@ -66,6 +66,7 @@ a {
     position: absolute;
     z-index: 1;
     transform: translate(0.65vw, -4.3vw);
+    cursor: pointer;
 }
 
 .section_button:hover {
