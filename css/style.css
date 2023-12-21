@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+body {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.text_orange {
+    color: #F05A00;
+}
+
+.text_big {
+    font-weight: 400;
+    font-family: 'Prosto One', sans-serif;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-1 {
+    max-width: 100vw;
+    padding: 20px 15vw;
+}
+
+.container {
+    padding: 0 15vw;
+}
+
+.indent-top {
+    padding-top: 21vh;
+}
+
+.indent_bottom {
+    margin-left: 20px;
+}
+
+.block img {
+    border-radius: 5px;
+    width: 93%;
+    height: 100%;
+    margin: 10px;
+
+}
+
+.block_txt {
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Prosto One', sans-serif;
+    text-align: left;
+    z-index: 1;
+    font-size: 1vw;
+}
+
+.block_txt_big {
+    font-size: 2vw;
+}
+
+#section_1_img_1 {
+    width: 95%;
+    height: 94.4%;
+}
+
+#section_1_img_2 {
+    width: 90%;
+    height: 94.4%;
+}
+
+.section_button {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5vw;
+    height: 3.5vw;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    position: absolute;
+    z-index: 1;
+    transform: translate(0.65vw, -4.3vw);
+}
+
+.section_button:hover {
+    background-color: #F05A00;
+}
+
+.bg-main {
+    background-color: #F2F5F7;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.main_card-product {
+    width: 18vw;
+    min-width: 220px;
+    padding: 1vw;
+    color: black;
+    margin: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.main_card-product:hover {
+    scale: 1.05;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-product_img {
+    display: flex;
+    margin: 10px auto;
+
+}
+
+.card-product_icon svg {
+    cursor: pointer;
+}
+
+.text_card {
+    font-weight: 600;
+}
+
+.text_clr {
+    color: #DEDBDB;
+}
+
+.content-1 {
+    justify-content: space-between;
+}
+
+.content-2 {
+    align-items: end;
+}
+
+.product_new {
+    background-color: #180A3E;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.line {
+    background-color: #DEDBDB;
+    width: 22%;
+    height: 2px;
+}
+
+.active-orange {
+    background-color: #FFB78B;
+}
+
+.txt_price p {
+    margin-right: 10px;
+    align-items: end;
+}
+
+.icon_price {
+    position: relative;
+    top: 16px;
+    left: 1vw;
+    cursor: pointer;
+}
