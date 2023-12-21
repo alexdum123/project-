@@ -71,3 +71,67 @@ a {
 .section_button:hover {
     background-color: #F05A00;
 }
+
+.bg-main {
+    background-color: #F2F5F7;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.main_card-product {
+    width: 18vw;
+    min-width: 220px;
+    padding: 1vw;
+    color: black;
+    margin: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.main_card-product:hover {
+    scale: 1.05;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-product_img {
+    display: flex;
+    margin: 10px auto;
+
+}
+
+.card-product_icon svg {
+    cursor: pointer;
+}
+
+.content-1 {
+    justify-content: space-between;
+}
+
+.content-2 {
+    align-items: end;
+}
+
+.product_new {
+    background-color: #180A3E;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.line {
+    background-color: #DEDBDB;
+    width: 22%;
+    height: 2px;
+}
+
+.active-orange {
+    background-color: #FFB78B;
+}
+
+.txt_price p {
+    margin-right: 10px;
+    align-items: end;
+}
