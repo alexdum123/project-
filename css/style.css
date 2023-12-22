@@ -176,3 +176,39 @@ a {
     justify-content: space-around;
     padding: 3vw;
 }
+
+.rotate_180 {
+    transform: rotate(180deg);
+}
+
+.container_3 {
+    justify-content: space-around;
+}
+
+.container_2 {
+    padding: 2vw 9vw;
+}
+
+.content_4 {
+    align-items: center;
+}
+
+.slide_brand {
+    margin: 10px;
+
+}
+
+.slide_brand img {
+    width: 12vw;
+}
+
+.txt_slider {
+    font-family: 'Prosto One', sans-serif;
+    padding-top: 2vw;
+}
+
+.arrow {
+    min-width: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
