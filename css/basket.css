@@ -1,0 +1,152 @@
+.basket {
+    margin: 2px;
+    background-color: white;
+    color: black;
+    width: 94%;
+    padding: 1vw 2vw;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.basket:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.basket_content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.basket_img {
+    width: 5vw;
+    margin-right: 2vw;
+}
+
+.cross {
+    transform: rotate(45deg);
+}
+
+.plus {
+    scale: 2;
+    padding-left: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+}
+
+.plus:hover {
+    color: #F05A00;
+}
+
+.minus {
+    scale: 2;
+    padding-right: 10px;
+    color: #DEDBDB;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+}
+
+.minus:hover {
+    color: #F05A00;
+}
+
+.quantity {
+    font-size: 20px;
+}
+
+.border {
+    border-left: 2px solid #DEDBDB;
+    border-right: 2px solid #DEDBDB;
+    padding: 0 10px;
+}
+
+.cross {
+    scale: 3;
+    color: #8A8A8A;
+    transition: all 0.2s ease;
+    cursor: pointer;
+
+}
+
+.cross:hover {
+    color: black;
+}
+
+.basket_text1 {
+    color: #8A8A8A;
+}
+
+.basket_text_big {
+    color: black;
+    font-family: 'Prosto One', sans-serif;
+    font-size: 40px;
+}
+
+.basket_button {
+    border: 2px solid #DEDBDB;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    color: #3B3B3B;
+}
+
+.basket_text2 {
+    justify-content: space-between;
+    color: black;
+}
+
+.indent_tetx1 {
+    padding-left: 7vw;
+}
+
+.indent_tetx2 {
+    padding-right: 4vw;
+}
+
+.indent_tetx {
+    margin: 15px 0;
+}
+
+.c {
+    margin: 10px 0;
+}
+
+.sum {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: end;
+    width: 100%;
+    color: #000;
+}
+
+.text_sum {
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.sum_border {
+    color: #8A8A8A;
+    border-bottom: 2px solid #DEDBDB;
+    border-top: 2px solid #DEDBDB;
+
+}
+
+.oplata {
+    padding: 15px 20px;
+    background-color: #F05A00;
+    color: white;
+    display: block;
+    border-radius: 5px;
+    margin: 10px 0 50px;
+}
+
+.text_sum2 {
+    color: black;
+    font-family: 'Prosto One', sans-serif;
+    font-size: 20px;
+}
