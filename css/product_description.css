@@ -1,0 +1,110 @@
+.description_img {
+    width: 30vw;
+    margin: 30px 0;
+}
+
+main {
+    padding-bottom: 100px;
+}
+
+.description_card {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 2vw;
+}
+
+.description_card p {
+    color: black;
+    font-size: 16px;
+    max-width: 300px;
+    margin: 2vw;
+}
+
+.description_card h1 {
+    font-family: 'Prosto One', sans-serif;
+    color: black;
+    font-size: 30px;
+    margin: 2vw;
+}
+
+.h1_active {
+    color: #000001 !important;
+    border-bottom: 2px solid #F05A00;
+}
+
+.flex_description {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex_description img {
+    width: 70px;
+    margin: 10px;
+    box-shadow: 0px 10px 10px 0px #0000001c;
+    transition: all 0.2s ease-in;
+    padding: 5px;
+}
+
+.flex_description img:hover {
+    box-shadow: 0px 10px 20px 0px #f05c004d;
+}
+
+.description_card h2 {
+    color: #8A8A8A;
+    margin: 2vw 0;
+}
+
+.description_button {
+    background-color: #F05A00;
+    padding: 1vw;
+    margin: 2vw;
+    border-radius: 5px;
+    display: block;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.description_button:hover {
+    background-color: white;
+    color: #F05A00;
+    outline: 2px solid #F05A00;
+}
+
+.description_icon {
+    align-items: center;
+}
+
+.description_icon svg {
+    cursor: pointer;
+}
+
+.description_product {
+    background-color: white;
+    margin: 2px 0;
+    padding: 3vw;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.description_txt {
+    font-family: 'Prosto One', sans-serif;
+    font-size: 20px;
+    color: #DEDBDB;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.description_product p {
+    margin-top: 10px;
+}
+
+.description_product span {
+    font-family: 'Prosto One', sans-serif;
+    margin-right: 20px;
+}

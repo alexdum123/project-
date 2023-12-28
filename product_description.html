@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/product_description.css">
     <link rel="stylesheet" href="/css/basket.css">
+
 </head>
 
 <body>
@@ -62,19 +64,22 @@
                     </div>
                 </div>
                 <div class="header_button">
-                    <div class="header_svg">
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M13 31C13.5523 31 14 30.5523 14 30C14 29.4477 13.5523 29 13 29C12.4477 29 12 29.4477 12 30C12 30.5523 12.4477 31 13 31Z"
-                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            <path
-                                d="M25 31C25.5523 31 26 30.5523 26 30C26 29.4477 25.5523 29 25 29C24.4477 29 24 29.4477 24 30C24 30.5523 24.4477 31 25 31Z"
-                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            <path
-                                d="M3 4H7.72727L10.8945 20.9603C11.0026 21.5434 11.2986 22.0672 11.7307 22.4401C12.1629 22.8129 12.7036 23.0109 13.2582 22.9995H24.7455C25.3001 23.0109 25.8408 22.8129 26.2729 22.4401C26.705 22.0672 27.001 21.5434 27.1091 20.9603L29 10.3332H8.90909"
-                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
+                    <a href="basket.html">
+                        <div class="header_svg">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13 31C13.5523 31 14 30.5523 14 30C14 29.4477 13.5523 29 13 29C12.4477 29 12 29.4477 12 30C12 30.5523 12.4477 31 13 31Z"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M25 31C25.5523 31 26 30.5523 26 30C26 29.4477 25.5523 29 25 29C24.4477 29 24 29.4477 24 30C24 30.5523 24.4477 31 25 31Z"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M3 4H7.72727L10.8945 20.9603C11.0026 21.5434 11.2986 22.0672 11.7307 22.4401C12.1629 22.8129 12.7036 23.0109 13.2582 22.9995H24.7455C25.3001 23.0109 25.8408 22.8129 26.2729 22.4401C26.705 22.0672 27.001 21.5434 27.1091 20.9603L29 10.3332H8.90909"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </a>
                 </div>
                 <div class="indent_bottom">
                     <p>Товаров на сумму</p>
@@ -127,135 +132,65 @@
             </div>
         </div>
     </header>
-    <main class="indent_top bg_main">
+    <main class="indent_top bg_main ">
+        <p class="basket_text1 indent_tetx container">Главная / Описание товара</p>
         <div class="container">
-            <p class="basket_text1 indent_tetx">Главная / Корзина</p>
-            <div class="flex content-1 indent_tetx">
-                <h1 class="basket_text_big">Корзина</h1>
-                <a class="basket_button" href="index.html">ПРОДОЛЖИТЬ ПОКУПКИ</a>
-            </div>
+            <div class="description_card">
+                <div>
+                    <img class="description_img" src="/img/card with product/12311.jpg" alt="">
+                    <div class="flex_description">
+                        <img class="description_img_choice" src="/img/card with product/12311.jpg" alt="">
+                        <img class="description_img_choice" src="/img/card with product/12311.jpg" alt="">
+                        <img class="description_img_choice" src="/img/card with product/12311.jpg" alt="">
+                        <img class="description_img_choice" src="/img/card with product/12311.jpg" alt="">
+                        <img class="description_img_choice" src="/img/card with product/12311.jpg" alt="">
+                    </div>
+                </div>
+                <div>
+                    <h1>Краска Farbitex Для садовых деревьев</h1>
+                    <p>В наличии</p>
+                    <p>Быстросохнущая, высокоукрывистая, защита от водорослей, мха, лишайника, защита от грибка,
+                        светостойкая, термостойкая, защита от вредителей</p>
+                    <div class="flex">
+                        <h1>500 ₽</h1>
+                        <h2> <s>720 ₽</s></h2>
+                    </div>
+                    <div class="flex description_icon">
+                        <a class="description_button" href="">В КОРЗИНУ</a>
 
-            <div class="flex basket_text2 indent_tetx">
-                <p>Название</p>
-                <p> </p>
-                <p class="indent_tetx1">Стоимость</p>
-                <p>Количество</p>
-                <p class="indent_tetx2">Итого</p>
-                <p> </p>
-            </div>
-        </div>
-        <div class="container">
-            <div class="basket flex">
-                <img class="basket_img" src="/img/card with product/Rectangle 20.png" alt="">
-                <div class="basket_content">
-                    <div>
-                        <p>Краски и эмали</p>
-                        <p>Эмаль Condor ПФ-115</p>
-                    </div>
-                    <div class="txt_width">
-                        <p><s class="text_grey"> 1620 ₽</s></p>
-                        <p>1500 ₽</p>
-                    </div>
-                    <div class="flex quantity">
-                        <p class="minus">-</p>
-                        <p class="border">1</p>
-                        <p class="plus">+</p>
-                    </div>
-                    <p>1 000 ₽</p>
-                    <div class="cross">
-                        <p>+</p>
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="50" height="50" rx="5" fill="white" />
+                            <path d="M36 38V22" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M24 38V13" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M13 38V29" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="50" height="50" rx="5" fill="white" />
+                            <path
+                                d="M38.5325 13.4754C37.7506 12.6906 36.8222 12.0681 35.8004 11.6434C34.7786 11.2186 33.6834 11 32.5774 11C31.4714 11 30.3762 11.2186 29.3544 11.6434C28.3326 12.0681 27.4042 12.6906 26.6223 13.4754L24.9996 15.1033L23.3769 13.4754C21.7975 11.891 19.6554 11.0008 17.4218 11.0008C15.1882 11.0008 13.0461 11.891 11.4667 13.4754C9.88729 15.0599 9 17.2088 9 19.4496C9 21.6903 9.88729 23.8393 11.4667 25.4237L13.0894 27.0517L24.9996 39L36.9098 27.0517L38.5325 25.4237C39.3148 24.6393 39.9353 23.708 40.3587 22.6829C40.7821 21.6579 41 20.5592 41 19.4496C41 18.34 40.7821 17.2413 40.3587 16.2162C39.9353 15.1912 39.3148 14.2598 38.5325 13.4754V13.4754Z"
+                                stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
                     </div>
                 </div>
             </div>
-
-            <div class="basket flex ">
-                <img class="basket_img" src="/img/card with product/Rectangle 20.png" alt="">
-                <div class="basket_content">
-                    <div>
-                        <p class="orange">Краски и эмали</p>
-                        <p>Эмаль Condor ПФ-115</p>
-                    </div>
-                    <div class="txt_width">
-                        <p><s class="text_grey"> 620 ₽</s></p>
-                        <p>500 ₽</p>
-                    </div>
-                    <div class="flex quantity">
-                        <p class="minus">-</p>
-                        <p class="border">1</p>
-                        <p class="plus">+</p>
-                    </div>
-                    <p>1 000 ₽</p>
-                    <div class="cross">
-                        <p>+</p>
-                    </div>
+            <div class="description_product ">
+                <div class="flex">
+                    <h1 class="description_txt">Описание</h1>
+                    <h1 class="description_txt h1_active">Характеристики</h1>
+                    <h1 class="description_txt">Доставка</h1>
+                    <h1 class="description_txt">Отзывы</h1>
                 </div>
-            </div>
-
-            <div class="basket flex">
-                <img class="basket_img" src="/img/card with product/Rectangle 20.png" alt="">
-                <div class="basket_content">
-                    <div>
-                        <p>Краски и эмали</p>
-                        <p>Эмаль Condor ПФ-115</p>
-                    </div>
-                    <div>
-                        <div class="txt_width">
-                            <p><s class="text_grey"> 1620 ₽</s></p>
-                            <p>15000 ₽</p>
-                        </div>
-                    </div>
-                    <div class="flex quantity">
-                        <p class="minus">-</p>
-                        <p class="border">1</p>
-                        <p class="plus">+</p>
-                    </div>
-                    <p>1 000 ₽</p>
-                    <div class="cross">
-                        <p>+</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="basket flex">
-                <img class="basket_img" src="/img/card with product/Rectangle 20.png" alt="">
-                <div class="basket_content">
-                    <div>
-                        <p>Краски и эмали</p>
-                        <p>Эмаль Condor ПФ-115</p>
-                    </div>
-                    <div class="txt_width">
-                        <p><s class="text_grey"> 1620 ₽</s></p>
-                        <p>15000 ₽</p>
-                    </div>
-                    <div class="flex quantity">
-                        <p class="minus">-</p>
-                        <p class="border">1</p>
-                        <p class="plus">+</p>
-                    </div>
-                    <p>1 000 ₽</p>
-                    <div class="cross">
-                        <p>+</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="sum">
-                <div class="">
-                    <div class="flex text_sum">
-                        <p>Сумма</p>
-                        <p>4 550 ₽</p>
-                    </div>
-
-                    <div class="flex text_sum sum_border">
-                        <p>Скидка</p>
-                        <p>— 250 ₽</p>
-                    </div>
-
-                    <div class="flex text_sum text_sum2">
-                        <p>К оплате</p>
-                        <p class="text_orange">4 200 ₽</p>
-                    </div>
-                    <a class="oplata" href="">ПЕРЕЙТИ К ОФОРМЛЕНИЮ</a>
+                <div>
+                    <p><span>Расход:</span>от 0,15 до 0,18 кг/м2</p>
+                    <p><span>Назначение:</span>Для деревьев</p>
+                    <p><span>Тип работ:</span>Наружное</p>
+                    <p><span>Упаковка:</span>Ведро</p>
+                    <p><span>Время высыхания:</span>1ч</p>
                 </div>
             </div>
         </div>
