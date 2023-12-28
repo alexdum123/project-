@@ -114,7 +114,7 @@ a {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
-.card-product_img {
+.card_product_img {
     display: flex;
     margin: 10px auto;
 
